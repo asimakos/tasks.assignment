@@ -1,4 +1,4 @@
-										Tasks Assignment app
+							     Tasks Assignment app
 										
 A CRUD mobile view app where every user is able to register significant information for prejudicial appeals, judgements and appeals' technical assistance. The user has also the ability to search for these types of tasks according to specific criteria such as appeals' technical assistance description, judgements' name and prejudicial appeals' participants. Additionally he can edit or delete selected information via appropriate forms or confirmation messages.
 
