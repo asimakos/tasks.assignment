@@ -1,0 +1,90 @@
+
+<div class="page" data-name="appeal_edit">
+  <div class="navbar navbar-large-transparent">
+    <div class="navbar-bg"></div>
+    <div class="navbar-inner">
+      <div class="left">
+        <a href="#" class="link back">
+          <i class="icon icon-back"></i> Back
+          <span class="if-not-md">Framework7</span>
+        </a>
+      </div>
+      <div class="center"> Επεξεργασία Προσφυγής </div>
+
+      <!--
+      <div class="title-large">
+        <div class="title-large-text">About</div>
+      </div>
+      -->
+   </div> 
+  </div>
+  <div class="page-content">
+    <!--
+    <div class="block-title block-title-medium">Στοιχεία Απόφασης</div>
+    -->
+    <div class="block block-strong">
+      <form class="appeal_edit" id="appeal-edit">
+        <ul>
+          <li>
+            <div class="item-content item-input">
+              <div class="item-inner">
+                <div class="item-title item-label"> Προσφεύγων</div>
+                <div class="item-input-wrap">
+                  <input type="text" name="applicant_edit" id="applicant_edit" placeholder="Διακριτικός Τίτλος" required validate/>
+                </div>
+              </div>
+            </div>
+          </li>
+           <li>
+            <div class="item-content item-input">
+              <div class="item-inner">
+                <div class="item-title item-label"> Αναθέτων</div>
+                <div class="item-input-wrap">
+                  <input type="text" name="assigner_edit" id="assigner_edit" placeholder="Ονομα" required validate/>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content item-input">
+              <div class="item-inner">
+                <div class="item-title item-label"> Προϋπολογισμός</div>
+                <div class="item-input-wrap">
+                  <input type="text" name="amount_edit" id="amount_edit" placeholder="Ποσό (χωρίς ΦΠΑ)" required validate/>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+             <div class="item-content item-input">
+               <div class="item-inner">
+                <div class="item-title item-label"> Ημερομηνία</div>
+                <div class="item-input-wrap">
+                  <input type="date" name="appeal_edit_date" id="appeal_edit_date"  placeholder="Επιλογή..." required validate/>
+                </div>
+               </div>
+            </div>
+          </li>
+           <li id="eappeal_id">
+			<div class="item-content item-input">
+			  <div class="item-inner">
+			    <div class="item-title item-label"> Κωδικός</div>
+			    <div class="item-input-wrap">
+			      <input type="text" name="appeal_eid" id="appeal_eid" placeholder="Κωδικός" required validate/>
+			    </div>
+			  </div>
+			</div>
+		</li>
+        </ul>
+      </form>
+      <div class="block block-strong row">
+        <div class="col"><a class="button button-fill color-teal" id="appeal_update" href="#"><i class="f7-icons">pencil_circle</i></a></div>
+        <!--
+        <div class="col"><a class="button button-fill fill-form-from-data" href="#">Fill Form</a></div>
+         -->
+      </div>
+    </div>
+  </div>
+</div>
+
+

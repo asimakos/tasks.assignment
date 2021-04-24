@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags You can add more meta tags as per your requirements -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap:">
+    <!-- Color theme for statusbar (Mobile version)-->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Change Your Application title as per your requirement -->
+    <title>Αρχείο καταγραφής</title>
+    <!-- Path to Framework7 Library Bundle CSS -->
+    <link rel="stylesheet" href="./css/framework7.bundle.min.css">
+    <!-- Path to Framework7 Icon Library CSS-->
+    <link rel="stylesheet" href="./css/icons/framework7-icons.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="./css/myapp.css">
+    <link rel="icon" href="./img/register.png">
+    <!-- Link to your application favicon-->
+    <!--
+    <link rel="apple-touch-icon" href="img/progrramers-f7.ico">
+    <link rel="icon" href="img/progrramers-f7.ico">
+    -->
+  </head>
+  <body>
+    <!-- App root element -->
+    <div id="app">
+      <!-- Statusbar overlay -->
+      <div class="statusbar"></div>
+      
+      
+      <div class="panel panel-left panel-reveal panel-resizable panel-init">
+        <div class="block">
+            <p><i class="f7-icons">person</i>Μενού</p>
+            <p><i class="f7-icons">person_badge_plus</i><a href="/add-user/">Εγγραφή</a></p>
+            <p><i class="f7-icons">person_badge_minus</i><a href="#" class="logout">Αποσύνδεση</a></p>
+        </div>
+      </div>
+
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main">
+        <!-- Initial Page, "data-name" contains page name -->
+        <div class="page" data-name="home">
+
+          <!-- Top Navbar -->
+          <div class="navbar">
+            <div class="navbar-inner">
+              <div class="title">Σύνδεση </div>
+            </div>
+          </div>
+
+          <!-- Bottom Toolbar -->
+          <!--
+          <div class="toolbar toolbar-bottom">
+            <div class="toolbar-inner">
+              <a href="#" class="link">Link 1</a>
+              <a href="#" class="link">Link 2</a>
+            </div>
+          </div>
+          -->
+
+          <!-- Scrollable page content -->
+          <div class="page-content">
+            <!--
+            <p>Page content goes here</p>
+            Link to another page -->
+            <form class="login" id="login-form">
+                      <ul>
+                         <li>
+                             <div class="item-content item-input">
+                                <div class="item-inner">
+                                  <div class="item-title item-label"> <i class="f7-icons">person</i> Όνομα χρήστη </div>
+                                  <div class="item-input-wrap">
+                                    <input type="text" name="username" id="username" placeholder="Username" required validate/>
+                                  </div>
+                                </div>
+                            </div>
+                         </li>
+                         <li>
+                             <div class="item-content item-input">
+                                <div class="item-inner">
+                                  <div class="item-title item-label"><i class="f7-icons">lock_fill</i> Κωδικός</div>
+                                  <div class="item-input-wrap">
+                                    <input type="password" name="password" id="password" placeholder="Password" required validate/>
+                                  </div>
+                                </div>
+                            </div>
+                         </li>
+                      </ul>
+                  </form>
+                <div class="row">
+                    <div class="col"><a href = "#" id="submit" class = "button button-fill color-blue"><i class="f7-icons">square_arrow_up</i></a></div>
+                    <div class="col"><a href = "#" id="reset" class = "button button-fill color-lightblue"><i class="f7-icons">xmark_circle</i></a> </div>
+                </div>
+                 
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Path to Framework7 Library Bundle JS-->
+    <script type="text/javascript" src="./js/framework7.bundle.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="./js/myapp.js"></script>
+    <script type="text/javascript" src="./js/user.js"></script>
+    <script type="text/javascript" src="./js/tabmenu.js"></script>
+    <script type="text/javascript" src="./js/judge.js"></script>
+    <script type="text/javascript" src="./js/assist.js"></script>
+    <script type="text/javascript" src="./js/appeal.js"></script>
+  </body>
+</html>

@@ -1,0 +1,140 @@
+
+  <div class="page" data-name="menu">
+    <div class="navbar">
+      <div class="navbar-bg"></div>
+      <div class="navbar-inner sliding">
+        <!--
+        <div class="left">
+          <a href="#" class="link back">
+            <i class="icon icon-back"></i>
+            <span class="if-not-md">Back</span>
+          </a>
+        </div>
+       -->
+        <div class="title">ΜΕΝΟΥ</div>
+      </div>
+    </div>
+    <div class="toolbar tabbar toolbar-bottom">
+      <div class="toolbar-inner">
+        <a href="#tab-1" class="tab-link tab-link-active">ΑΠΟΦΑΣΕΙΣ</a>
+        <a href="#tab-2" class="tab-link">ΣΥΝΔΡΟΜΕΣ</a>
+        <a href="#tab-3" class="tab-link">ΠΡΟΣΦΥΓΕΣ</a>
+      </div>
+    </div>
+    <div class="tabs-swipeable-wrap">
+      <div class="tabs">
+        <div id="tab-1" class="page-content tab tab-active">
+           <div class="block">
+            <!--
+               Searchbar Judge
+            -->                     
+              <div class="searchbar-backdrop"></div>
+                <form class="searchbar search_judge">
+                  <div class="searchbar-inner">
+                    <div class="searchbar-input-wrap">
+                      <input type="search" placeholder="Search">
+                      <i class="searchbar-icon"></i>
+                      <span class="input-clear-button"></span>
+                    </div>
+                    <span class="searchbar-disable-button">Cancel</span>
+                  </div>
+                </form>
+                       
+            <div class="data-table card">
+              <table>
+                <thead>
+                  <tr>
+                    <th class="numeric-cell">A/A</th>
+                    <th class="medium-only sortable-cell">ΑΠΟΦΑΣΗ</th>
+                    <th class="medium-only">ΑΝΑΘΕΣΗ </th>
+                    <th class="medium-only">ΕΝΕΡΓΕΙΑ</th>
+                  </tr>
+                </thead>
+                <tbody id="judgement_list">
+                </tbody>
+              </table>
+            </div>
+
+          </div>
+          <div class="block">
+            <a href="/judge-new/" class="button button-fill color-green"><i class="f7-icons">plus</i></a>
+          </div>
+        </div>
+        <div id="tab-2" class="page-content tab">
+          <div class="block">
+            <!--
+               Searchbar Assist
+            -->                     
+              <div class="searchbar-backdrop"></div>
+                <form class="searchbar search_assist">
+                  <div class="searchbar-inner">
+                    <div class="searchbar-input-wrap">
+                      <input type="search" placeholder="Search">
+                      <i class="searchbar-icon"></i>
+                      <span class="input-clear-button"></span>
+                    </div>
+                    <span class="searchbar-disable-button">Cancel</span>
+                  </div>
+                </form>
+                       
+            <div class="data-table card">
+              <table>
+                <thead>
+                  <tr>
+                    <th class="numeric-cell">A/A</th>
+                    <th class="medium-only sortable-cell">ΣΥΝΔΡΟΜΗ</th>
+                    <th class="medium-only">ΑΝΑΘΕΣΗ </th>
+                    <th class="medium-only">ΕΝΕΡΓΕΙΑ</th>
+                  </tr>
+                </thead>
+                <tbody id="assistance_list">
+                </tbody>
+              </table>
+            </div>
+
+          </div>
+          <div class="block">
+            <a href="/assist-new/" class="button button-fill color-green"><i class="f7-icons">plus</i></a>
+         </div>
+        </div>
+        <div id="tab-3" class="page-content tab">
+          <div class="block">
+            <!--
+               Searchbar Appeal
+            -->                     
+              <div class="searchbar-backdrop"></div>
+                <form class="searchbar search_appeal">
+                  <div class="searchbar-inner">
+                    <div class="searchbar-input-wrap">
+                      <input type="search" placeholder="Search">
+                      <i class="searchbar-icon"></i>
+                      <span class="input-clear-button"></span>
+                    </div>
+                    <span class="searchbar-disable-button">Cancel</span>
+                  </div>
+                </form>
+                       
+            <div class="data-table card">
+              <table>
+                <thead>
+                  <tr>
+                    <th class="numeric-cell">A/A</th>
+                    <th class="medium-only sortable-cell">ΠΡΟΣΦΕΥΓΩΝ</th>
+                    <th class="medium-only sortable-cell">ΑΝΑΘΕΤΟΥΣΑ</th>
+                    <th class="numeric-cell">ΠΡΟΥΠΟΛΟΓΙΣΜΟΣ (ΑΝΕΥ ΦΠΑ)</th>
+                    <th class="medium-only">ΑΝΑΘΕΣΗ </th>
+                    <th class="medium-only">ΕΝΕΡΓΕΙΑ</th>
+                  </tr>
+                </thead>
+                <tbody id="appeal_list">
+                </tbody>
+              </table>
+            </div>
+            <div class="block">
+             <a href="/appeal-new/" class="button button-fill color-green"><i class="f7-icons">plus</i></a>
+            </div>         
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
